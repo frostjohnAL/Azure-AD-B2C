@@ -21,6 +21,6 @@ Arkose Challenge for Sign in form on Azure B2C
 To validate the token using your private key you'll need to host a backend server to call Arkose after the user has completed the challenge.
 
 1. Follow these steps to set up a php server [link](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-php)
-2. Commit verify-token.php to the hosted repo
+2. Commit verify-token.php to the hosted repo. Remember to replace <PRIVATE_KEY> on line 3.
 3. Update the blob index.html file on line 86 to point to the endpoint created in the php app for verify-token.php.
 
