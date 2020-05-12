@@ -13,9 +13,11 @@ Arkose Challenge for Sign in form on Azure B2C
 ## Setup - Front end
 
 1. Create a B2C Directory + subscription per [link](https://azure.microsoft.com/en-us/services/active-directory/external-identities/b2c/)
-2. Follow these instructions to create a custom user flow including, storage account and a blob file that will hold the index.html file in this repo [link](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-customize-ui)
+2. Follow these steps to create a custom user flow including, storage account and a blob file that will hold the index.html file in this repo [link](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-customize-ui)
 3. Once you have the user flow customized follow these steps to enable javascript for the given user flow [link](https://docs.microsoft.com/en-us/azure/active-directory-b2c/user-flow-javascript-overview)
 4. Replace <PUBLIC_KEY> in index.html on line 21 with your public key.
+
+Note: to make your own styling you can remove all the default styling in index.html including references to "arkoselabs".
 
 ## Setup - Back end
 To validate the token using your private key you'll need to host a backend server to call Arkose after the user has completed the challenge.
