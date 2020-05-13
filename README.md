@@ -1,6 +1,8 @@
 # Arkose Integration with Azure B2C
 
-Arkose Challenge for Sign in form on Azure B2C
+Arkose Labs Enforcement Challenge Sign in form on Azure B2C
+
+For details on Arkose Labs visit https://www.arkoselabs.com/ and you can reach out to our team to sign up via this [link](https://www.arkoselabs.com/contact-sales/) or at (800)604-3319. 
 
 ## Live sample
 
