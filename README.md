@@ -2,7 +2,7 @@
 
 Arkose Labs Enforcement Challenge Sign in form on Azure B2C
 
-For details on Arkose Labs visit https://www.arkoselabs.com/ and you can reach out to our team to sign up via this [link](https://www.arkoselabs.com/contact-sales/) or at (800)604-3319. 
+For details on Arkose Labs visit https://www.arkoselabs.com/  
 
 ## Live sample
 
@@ -28,3 +28,6 @@ To validate the token using your private key you'll need to host a backend serve
 2. Commit verify-token.php to the hosted repo. Remember to replace <PRIVATE_KEY> on line 3.
 3. Update the blob index.html file on line 86 to point to the endpoint created in the php app for verify-token.php.
 
+
+## Arkose Labs - Sign up 
+Reach out to our team to sign up for a merchant account via this [link](https://www.arkoselabs.com/contact-sales/) or at (800) 604-3319
