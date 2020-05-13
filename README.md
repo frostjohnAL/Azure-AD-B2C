@@ -2,7 +2,7 @@
 
 Arkose Labs Enforcement Challenge Sign in form on Azure B2C
 
-For details on Arkose Labs visit https://www.arkoselabs.com/  
+For details on Arkose Labs visit https://www.arkoselabs.com/ 
 
 ## Live sample
 
@@ -30,4 +30,4 @@ To validate the token using your private key you'll need to host a backend serve
 
 
 ## Arkose Labs - Sign up 
-Reach out to our team to sign up for a merchant account via this [link](https://www.arkoselabs.com/contact-sales/) or at (800) 604-3319
+Reach out to our team to sign up for a merchant account via this [link](https://www.arkoselabs.com/contact-sales/) or at (800) 604-3319. The team can provide a tailored demo at https://www.arkoselabs.com/book-a-demo/
