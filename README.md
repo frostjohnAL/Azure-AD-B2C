@@ -19,14 +19,16 @@ For details on Arkose Labs visit https://www.arkoselabs.com/
 3. Once you have the user flow customized follow these steps to enable javascript for the given user flow [link](https://docs.microsoft.com/en-us/azure/active-directory-b2c/user-flow-javascript-overview)
 4. Replace <PUBLIC_KEY> in index.html on line 21 with your public key.
 
-Note: to make your own styling you can remove all the default styling in index.html including references to "arkoselabs".
+Note: to make your own styling you can remove all the default styling in index.html on lines 4 to 17.
 
 ## Setup - Back end
 To validate the token using your private key you'll need to host a backend server to call Arkose after the user has completed the challenge.
 
 1. Follow these steps to set up a php server [link](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-php)
-2. Commit verify-token.php to the hosted repo. Remember to replace <PRIVATE_KEY> on line 3.
-3. Update the blob index.html file on line 86 to point to the endpoint created in the php app for verify-token.php.
+2. The root index.php file can be renamed to verify-token.php and then copy and paste the code in verify-token.php to that file.
+3. Replace <PRIVATE_KEY> on line 3.
+4. Continue with the instructions above, specfically the section called "Update locally and redeploy the code" to commit changes to the hosted repo. 
+5. Update the blob index.html file on line 86. Replace <app name> with the same app name used in the "Create a web app" section of the instructions above. Ex: http://<app name>.azurewebsites.net
 
 
 ## Arkose Labs - Sign up 
