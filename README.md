@@ -3,6 +3,7 @@
 Arkose Labs Enforcement Challenge Sign in form on Azure B2C
 
 For details on Arkose Labs visit https://www.arkoselabs.com/ 
+Note to get your development and production environments with yor public and private key reach out to the Arkose Labs team 
 
 ## Live sample
 
